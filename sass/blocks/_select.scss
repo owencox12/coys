@@ -1,0 +1,31 @@
+.select {
+    &__wrapper {
+        display: flex;
+    }
+    &__item {
+        width: 50%;
+        position: relative;
+        height: 740px;
+        &_first {
+            background: #F4D8D4;
+        }
+        &_button {
+            text-align: center;
+            margin-top: 331px;
+        }
+        &_image {
+            &_first {
+                position: absolute;
+                left: 150px;
+                top: 30px;
+            }
+            &_second {
+                position: absolute;
+                right: 150px;
+            }
+        }
+        &_second {
+            background: #8895A4;
+        }
+    }
+}

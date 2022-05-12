@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <svg style="display: none;">
+        <symbol viewBox="0 0 56.7 56.7" id="instagram">
+            <g>
+                <path d="M28.2,16.7c-7,0-12.8,5.7-12.8,12.8s5.7,12.8,12.8,12.8S41,36.5,41,29.5S35.2,16.7,28.2,16.7z M28.2,37.7
+                    c-4.5,0-8.2-3.7-8.2-8.2s3.7-8.2,8.2-8.2s8.2,3.7,8.2,8.2S32.7,37.7,28.2,37.7z"/>
+                <circle cx="41.5" cy="16.4" r="2.9"/>
+                <path d="M49,8.9c-2.6-2.7-6.3-4.1-10.5-4.1H17.9c-8.7,0-14.5,5.8-14.5,14.5v20.5c0,4.3,1.4,8,4.2,10.7c2.7,2.6,6.3,3.9,10.4,3.9
+                    h20.4c4.3,0,7.9-1.4,10.5-3.9c2.7-2.6,4.1-6.3,4.1-10.6V19.3C53,15.1,51.6,11.5,49,8.9z M48.6,39.9c0,3.1-1.1,5.6-2.9,7.3
+                    s-4.3,2.6-7.3,2.6H18c-3,0-5.5-0.9-7.3-2.6C8.9,45.4,8,42.9,8,39.8V19.3c0-3,0.9-5.5,2.7-7.3c1.7-1.7,4.3-2.6,7.3-2.6h20.6
+                    c3,0,5.5,0.9,7.3,2.7c1.7,1.8,2.7,4.3,2.7,7.2V39.9L48.6,39.9z"/>
+            </g>
+        </symbol>
+    </svg>
+    <svg style="display: none;">
+        <symbol id="facebook" viewBox="0 0 512 512">
+            <path d="M288,192v-38.1c0-17.2,3.8-25.9,30.5-25.9H352V64h-55.9c-68.5,0-91.1,31.4-91.1,85.3V192h-45v64h45v192h83V256h56.4l7.6-64  H288z M330.2,240h-41.1H272v15.5V432h-51V255.5V240h-14.9H176v-32h30.1H221v-16.5v-42.2c0-24.5,5.4-41.2,15.5-51.8  C247.7,85.5,267.6,80,296.1,80H336v32h-17.5c-12,0-27.5,1.1-37.1,11.7c-8.1,9-9.4,20.1-9.4,30.1v37.6V208h17.1H334L330.2,240z"/>
+        </symbol>
+    </svg>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__item">
+                    <ul class="header__item_menu">
+                        <li class="header__item_menu_type"><a href="#select" data-id="#select">Жінкам</a></li>
+                        <li class="header__item_menu_type"><a href="#select" data-id="#select">Чоловікам</a></li>
+                        <li class="header__item_menu_type"><a href="#contacts" data-id="#contacts">Контакти</a></li>
+                    </ul>
+                </div>
+                <div class="header__item">
+                    <div class="header__item_logo">
+                        <img src="image/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="header__item_burger">
+                    <span></span>
+                </div>
+                <div class="header__item header__item_third">
+                    <ul class="header__item_menu">
+                        <li class="header__item_menu_type"><a href="tel:+380971928500">+38 097 192 85 00</a></li>
+                        <li class="header__item_menu_type"><a href="#">кабінет</a></li>
+                    </ul>
+                    <div class="header__item_icons">
+                        <div class="header__item_icons_icon">
+                            <a href="#"><img src="image/search.png" alt=""></a>
+                        </div>
+                        <div class="header__item_icons_icon">
+                            <a href="#"><img src="image/buy.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="header__item_languages">
+                        <div class="header__item_languages_language">
+                            <a href="#">EN</a>
+                        </div>
+                        <div class="header__item_languages_language header__item_languages_language_active">
+                            <a href="#">UA</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__burger_list">
+                <ul class="header__burger_list_menu">
+                    <li class="header__burger_list_menu_type"><a href="tel:+380971928500">+38 097 192 85 00</a></li>
+                    <li class="header__burger_list_menu_type"><a href="#">кабінет</a></li>
+                    <li class="header__burger_list_menu_type"><a href="#">Жінкам</a></li>
+                    <li class="header__burger_list_menu_type"><a href="#">Чоловікам</a></li>
+                    <li class="header__burger_list_menu_type"><a href="#">Контакти</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="main__image">
+                        <img src="image/mainBG.png" alt="">
+                        <div class="main__text">
+                            <div class="main__title">
+                                Colors Of Your Soul
+                            </div>
+                            <div class="main__descr">
+                                Украинский бренд одежды из натуральных тканей с акцентом на цвет
+                            </div>
+                            <div class="main__img">
+                                <img src="image/mainimage.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="main__image">
+                        <img src="image/mainBG.png" alt="">
+                        <div class="main__text">
+                            <div class="main__title">
+                                Colors Of Your Soul
+                            </div>
+                            <div class="main__descr">
+                                Украинский бренд одежды из натуральных тканей с акцентом на цвет
+                            </div>
+                            <div class="main__img">
+                                <img src="image/mainimage.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="main__image">
+                        <img src="image/mainBG.png" alt="">
+                        <div class="main__text">
+                            <div class="main__title">
+                                Colors Of Your Soul
+                            </div>
+                            <div class="main__descr">
+                                Украинский бренд одежды из натуральных тканей с акцентом на цвет
+                            </div>
+                            <div class="main__img">
+                                <img src="image/mainimage.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </main>
+    <section class="select" id="select">
+            <div class="select__wrapper">
+                <div class="select__item select__item_first">
+                    <div class="select__item_image select__item_image_first">
+                        <img src="image/girl.png" alt="">
+                    </div>
+                    <div class="select__item_button">
+                        <button class="button button--select">Жінкам</button>
+                    </div>
+                </div>
+                <div class="select__item select__item_second">
+                    <div class="select__item_image select__item_image_second">
+                        <img src="image/men.png" alt="">
+                    </div>
+                    <div class="select__item_button">
+                        <button class="button button--select">Чоловікам</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="contacts" id="contacts">
+        <div class="container container__second">
+            <div class="contacts__title">
+                Індивідуальні замовлення
+            </div>
+            <div class="contacts__divider">
+
+            </div>
+            <div class="contacts__wrapper">
+                <div class="contacts__item">
+                    <div class="contacts__item_image">
+                        <img src="image/contactsImg.png" alt="">
+                    </div>
+                </div>
+                <div class="contacts__item">
+                    <div class="contacts__item_descr">
+                        Ми приймаємо індивідуальні замовлення при 100% оплаті
+                        Обирайте наші моделі в індивідуальних кольорах і розмірах 
+                    </div>
+                </div>
+                <div class="contacts__item">
+                    <div class="contacts__item_title">Для індувідуального пошиву, залишіть свій номер
+                    </div>
+                    <form action="#" class="contacts__item_form">
+                        <input type="number" placeholder="+380 _ _  _ _ _  _ _  _ _">
+                        <button class="button button--contacts">замовити</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="products">
+        <div class="products__wrapper">
+            <div class="products__item products__item_first">
+                <div class="products__item_title">
+                    Новинки
+                </div>
+                <div class="products__item_image products__item_image_first">
+                    <img src="image/products1.png" alt="">
+                </div>
+            </div>
+            <div class="products__item products__item_second">
+                <div class="products__item_title">
+                    Sale
+                </div>
+                <div class="products__item_image products__item_image_second">
+                    <img src="image/products2.png" alt="">
+                </div>
+            </div>
+            <div class="products__item products__item_third">
+                <div class="products__item_title">
+                    Бестселлеры
+                </div>
+                <div class="products__item_image products__item_image_third">
+                    <img src="image/products3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__item footer__item_first">
+                    <div class="footer__item_icons">
+                        <div class="footer__item_icons_icon">
+                            <svg>
+                                <use xlink:href="#instagram"></use>
+                            </svg>
+                        </div>
+                        <div class="footer__item_icons_icon">
+                            <svg>
+                                <use xlink:href="#facebook"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <ul class="footer__item_list">
+                        <li class="footer__item_list_type"><a href="#">Догляд</a></li>
+                        <li class="footer__item_list_type"><a href="#">про бренд</a></li>
+                        <li class="footer__item_list_type"><a href="#">Lookbooks</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__item_arrow">
+                        <img src="image/footerArrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
